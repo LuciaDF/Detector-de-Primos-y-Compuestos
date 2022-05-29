@@ -2,13 +2,17 @@
  <br />
 
 # Detector de Primos y Compuestos
-
+ <br />
+  <br />
+  
 ## 1.- Objetivo:
 
  <br />
- 
+  <br />
 En este proyecto está enfocado en la búsqueda y, finalmente, la acción de generar primos.
-
+ <br />
+  <br />
+  
 ## 2.- Algoritmos:
  <br />
  
@@ -49,7 +53,8 @@ Si n es primo tendrá que dividir a todos los factores, si al menos divide a uno
 Con la ayuda del Detector de Compuestos, el algoritmo Miller Rabin calcula los respectivos *t* y *u* de *n - 1*. Finalmente, determinamos una variable *s* el cual se encargará del grado de confianza, es decir, medir cuan fuerte es un pseudoprimo. Un pseudoprimo fuerte tiene altas probabilidades de ser primo por lo tanto, entre más valor le otorguemos a *s*, más probabilidad tendrá de que sea un pseudoprimo fuerte.
  <br />
   <br />
-  
+   <br />
+   
 ## 3.- Grado de Confianza:
 
 El grado de confianza *s*  se midió según el numero de cifras entre el mínimo valor que puede tomar *s* para que aumente las probabilidades de un pseudoprimo fuerte. En este caso, ya que el rango es de 3 a 5 cifras, se dispuso que el mínimo valor como 1.
