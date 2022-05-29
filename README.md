@@ -47,7 +47,9 @@ Si n es primo tendrá que dividir a todos los factores, si al menos divide a uno
 
 
 Con la ayuda del Detector de Compuestos, el algoritmo Miller Rabin calcula los respectivos *t* y *u* de *n - 1*. Finalmente, determinamos una variable *s* el cual se encargará del grado de confianza, es decir, medir cuan fuerte es un pseudoprimo. Un pseudoprimo fuerte tiene altas probabilidades de ser primo por lo tanto, entre más valor le otorguemos a *s*, más probabilidad tendrá de que sea un pseudoprimo fuerte.
-
+ <br />
+  <br />
+  
 ## 3.- Grado de Confianza:
 
 El grado de confianza *s*  se midió según el numero de cifras entre el mínimo valor que puede tomar *s* para que aumente las probabilidades de un pseudoprimo fuerte. En este caso, ya que el rango es de 3 a 5 cifras, se dispuso que el mínimo valor como 1.
@@ -91,9 +93,11 @@ El proyecto está concentrado en el main.cpp el cual se puede descargar o copiar
  <br />
 
  **Descarga**:
- [main.cpp.zip](https://github.com/LuciaDF/Detector-de-Primos-y-Compuestos/files/8793593/main.cpp.zip)
+ [main.cpp.zip](https://github.com/LuciaDF/Detector-de-Primos-y-Compuestos/files/8793620/main.cpp.zip)
  
-
+ <br />
+ <br />
+ 
 ## 7.- Como usarlo:
 
 Al compilarlo se visualizará un **Menú** el cual al elegir su respectivo número se podrá desplegar el resultado.
