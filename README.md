@@ -18,7 +18,8 @@ En este proyecto está enfocado en la búsqueda y, finalmente, la acción de gen
  
 * Detector de Compuestos
 * Miller Rabin
-
+<br />
+  <br />
 ## Acerca de:
 
  <br />
