@@ -78,12 +78,17 @@ Acerca del grado de confianza se basó en el punto 4.48 [1] donde se aprecian co
 
  <br />
  <br />
+
+ Sin embargo, en este caso de calcular números de 2 o más cifras me apoyo primero, calcular el número máximo de bits que se puede usar para números de d cifras [2], y segundo, uso las condiciones del punto 4.48 y así determinar el grado de confianza para cada caso.
+
+ <br />
+
  
-| Nro Cifra      | Fact 4.48 (i) |
-| ----------- | ----------- |
-| 3 cifras     |1 |
-|  4 cifras      | 1 |
-|  5 cifras      | 1 |
+| Nro Cifra      | bmax | Fact 4.48 (i) |
+| ----------- | ----------- |----------- |
+| 3 cifras     |10 bits | 1 |
+|  4 cifras      | 14 bits | 1|
+|  5 cifras      | 17 bits |1 |
 
  <br />
  <br />
@@ -137,7 +142,7 @@ int main(int argc, const char * argv[])
 
 [1] A.Menezes, P.van Oorschot y S.Vanstone. (1996). *Chapter 4: Public-Key Parameters. En Handbook of Applied Cryptography(810). CRC Press.*
 
-
+[2] Rick Regan. (December 13th, 2012). *Number of Bits in a Decimal Integer. 2022, de Exploring Binary Sitio web:* https://www.exploringbinary.com/number-of-bits-in-a-decimal-integer/
 
 
 
