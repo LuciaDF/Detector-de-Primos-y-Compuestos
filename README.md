@@ -124,7 +124,7 @@ int main(int argc, const char * argv[])
 ```
 ## 8.- Referencias:
 
-[1] *A.Menezes, P.van Oorschot y S.Vanstone. (1996). Chapter 4: Public-Key Parameters. En Handbook of Applied Cryptography(810). CRC Press.*
+[1] A.Menezes, P.van Oorschot y S.Vanstone. (1996). *Chapter 4: Public-Key Parameters. En Handbook of Applied Cryptography(810). CRC Press.*
 
 
 
