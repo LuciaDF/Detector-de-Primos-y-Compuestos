@@ -59,22 +59,25 @@ Con la ayuda del Detector de Compuestos, el algoritmo Miller Rabin calcula los r
    <br />
    
 ## 3.- Grado de Confianza:
+<br />
+ 
+Acerca del grado de confianza se basó en el punto 4.48 [1] donde se aprecian condiciones con respecto de pk,t  el cual es la probabilidad de que n resulta ser compuesto aun puesto a prueba en el algoritmo de Miller-Rabin para un k como el número de bits y t como el parámetro de seguridad (o, puesto en otras palabras, el grado de confianza). El punto es que por k bits se toma un valor t definido según las condiciones para tener un óptimo resultado al calcular pk,t . La explicación de pk,t   se puede ver a fondo en los punto 4.46 y 4.47 [1].
 
-El grado de confianza *s*  se midió según el numero de cifras entre el mínimo valor que puede tomar *s* para que aumente las probabilidades de un pseudoprimo fuerte. En este caso, ya que el rango es de 3 a 5 cifras, se dispuso que el mínimo valor como 1.
+<img width="2000" alt="Fact 4.48" src="https://user-images.githubusercontent.com/62950378/171676899-4d552aea-ea2a-463c-a211-d16b64c55361.png">
 
  <br />
  <br />
  
-| Nro Cifra      | n / min(s)  |
+| Nro Cifra      | Fact 4.48 (i) |
 | ----------- | ----------- |
-| 3 cifras     | 3 / 1 |
-|  4 cifras      | 4 / 1 |
-|  5 cifras      | 5 / 1 |
+| 3 cifras     |1 |
+|  4 cifras      | 1 |
+|  5 cifras      | 1 |
 
  <br />
  <br />
 
-## 4.- Pseudocodigo:
+## 4.- Pseudocódigo:
 
 <img width="488" alt="Detector de Compuestos" src="https://user-images.githubusercontent.com/62950378/170874378-9e74d7fa-6d5c-4134-928e-66eac8c8be90.png">
 
@@ -119,7 +122,9 @@ int main(int argc, const char * argv[])
 }
 
 ```
+## 8.- Referencias:
 
+[1] *A.Menezes, P.van Oorschot y S.Vanstone. (1996). Chapter 4: Public-Key Parameters. En Handbook of Applied Cryptography(810). CRC Press.*
 
 
 
