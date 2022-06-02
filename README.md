@@ -61,7 +61,18 @@ Con la ayuda del Detector de Compuestos, el algoritmo Miller Rabin calcula los r
 ## 3.- Grado de Confianza:
 <br />
  
-Acerca del grado de confianza se basó en el punto 4.48 [1] donde se aprecian condiciones con respecto de pk,t  el cual es la probabilidad de que n resulta ser compuesto aun puesto a prueba en el algoritmo de Miller-Rabin para un k como el número de bits y t como el parámetro de seguridad (o, puesto en otras palabras, el grado de confianza). El punto es que por k bits se toma un valor t definido según las condiciones para tener un óptimo resultado al calcular pk,t . La explicación de pk,t   se puede ver a fondo en los punto 4.46 y 4.47 [1].
+Acerca del grado de confianza se basó en el punto 4.48 [1] donde se aprecian condiciones con respecto de *pk,t*  el cual es la probabilidad de que n resulta ser compuesto aun puesto a prueba en el algoritmo de Miller-Rabin para un *k* como el número de bits y *t* como el parámetro de seguridad (o, puesto en otras palabras, el grado de confianza). El punto es que por *k* bits se toma un valor *t* definido según las condiciones para tener un óptimo resultado al calcular *pk,t* . La explicación de *pk,t*   se puede ver a fondo en los punto 4.46 y 4.47 [1].
+
+<br />
+
+    OJO: La variable t del punto 2 no es la misma a la del punto 3. 
+
+
+<br />
+
+
+
+
 
 <img width="2000" alt="Fact 4.48" src="https://user-images.githubusercontent.com/62950378/171676899-4d552aea-ea2a-463c-a211-d16b64c55361.png">
 
