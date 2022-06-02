@@ -79,16 +79,16 @@ Acerca del grado de confianza se basó en el punto 4.48 [1] donde se aprecian co
  <br />
  <br />
 
- Sin embargo, en este caso de calcular números de 2 o más cifras me apoyo primero, calcular el número máximo de bits que se puede usar para números de d cifras [2], y segundo, uso las condiciones del punto 4.48 y así determinar el grado de confianza para cada caso.
+ Sin embargo, en este caso de calcular números de 2 o más cifras me apoyo primero, calcular el número máximo de bits que se puede usar para números de d cifras [2], segundo, uso las condiciones del punto 4.48 y tercero divido el nro de cifra entre el grado de confianza según la condición 4.48(i).
 
  <br />
 
  
-| Nro Cifra      | bmax | Fact 4.48 (i) |
+| Nro Cifra      | bmax | s  (Nro Cifra / Fact 4.48 )(i) |
 | ----------- | ----------- |----------- |
-| 3 cifras     |10 bits | 1 |
-|  4 cifras      | 14 bits | 1|
-|  5 cifras      | 17 bits |1 |
+| 3 cifras     |10 bits | 3/1 |
+|  4 cifras      | 14 bits | 4/1|
+|  5 cifras      | 17 bits |5/1 |
 
  <br />
  <br />
@@ -120,7 +120,7 @@ El proyecto está concentrado en el main.cpp el cual se puede descargar o copiar
  <br />
 
  **Descarga**:
- [main.cpp.zip](https://github.com/LuciaDF/Detector-de-Primos-y-Compuestos/files/8793620/main.cpp.zip)
+[main.cpp.zip](https://github.com/LuciaDF/Detector-de-Primos-y-Compuestos/files/8826285/main.cpp.zip)
  
  <br />
  <br />

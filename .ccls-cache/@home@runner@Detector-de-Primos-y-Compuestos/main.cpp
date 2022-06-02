@@ -160,7 +160,7 @@ void NCifras()
     int aux2=pow(10,n);
     for(int i=aux;i<aux2-1;i++)
     {
-        if(MillerRabin(i, 1))
+        if(MillerRabin(i, n/1))
         {
             cout<<"Primo: "<<i<<endl;
         }
